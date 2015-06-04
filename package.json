@@ -4,7 +4,7 @@
   "description": "**Instructions:** Fork and clone this repository.  Create a file called `grader.js` and write the following functions inside of it.  You must have full test coverage(write a bunch of jasmine tests for each function).  This is an open-book exercise.  Feel free to refer to your notes and the jasmine docs.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon --exec jshint grader.js & nodemon --exec jasmine"
   },
   "repository": {
     "type": "git",
